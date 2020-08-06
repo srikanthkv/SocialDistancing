@@ -7,7 +7,7 @@ namespace SocialDistancingTracker.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class SocialDistancingTrackerController : ControllerBase, ISocialDistancingTrackerController
+    public class SocialDistancingTrackerController : ControllerBase
     {
         private readonly SocialDistancingTrackerService _socialDistancingTrackerService;
 
